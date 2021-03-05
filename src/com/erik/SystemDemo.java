@@ -9,6 +9,7 @@ public class SystemDemo {
        }
        end=System.currentTimeMillis();
        System.out.println("Time spended for cycle : "+(end-start));
-
+       System.out.println(System.getProperty("user.dir") );
+       System.out.println(System.getProperty("user.name") );
     }
 }
